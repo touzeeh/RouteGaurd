@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 400; background: #78879a; }
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; scroll-behavior: smooth; background: var(--rg-page, #78879a); }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--rg-page, #78879a); color: var(--rg-text, #222b3b); }
+button, input, select, textarea { font: inherit; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid color-mix(in srgb, var(--rg-blue, #347de5) 50%, transparent); outline-offset: 2px; }
+#root { min-height: 100vh; width: 100%; margin: 0; border: 0; text-align: left; }
+::selection { background: color-mix(in srgb, var(--rg-blue, #347de5) 25%, transparent); }
